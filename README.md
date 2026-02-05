@@ -17,3 +17,8 @@ Outcome
 The clustering results highlight high-risk accident zones while filtering out isolated incidents as noise, enabling more reliable identification of areas requiring targeted intervention or further analysis.
 Practical Use Case
 The identified accident-prone zones can help new travellers and tourists recognise high-risk areas in advance. This supports better route planning, increased precaution, and informed decision-making, ultimately contributing to accident prevention and safer travel experiences.
+
+Dataset:
+The full original accident dataset is not included due to size constraints.
+To demonstrate the workflow and results, a preprocessed subset (`accidents_final_states.csv`) containing only relevant features and filtered states is included. This dataset has gone through scaling, clustering, and state selection, and is provided to allow reproducibility of the pipeline and visualization steps.
+The included dataset is a processed version for demonstration purposes only. The pipeline can be applied to the full dataset by replacing this file with the original `accidents_big.csv`.
